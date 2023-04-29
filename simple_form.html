@@ -1,0 +1,59 @@
+<html>
+
+<head>
+    <title>Signup Page</title>
+    <link rel="stylesheet" href="simple.css">
+</head>
+
+
+<body>
+    <div class="total">
+        <div class="container">
+            <form action="simple_form.php" method="POST" id="form">
+                <center>
+                    <h1 class="body">Register Here!</h1>
+                </center>
+
+                <!-- <div class="imgcontainer">
+                    <img src="{%static 'images\profile4.png'%}" alt="image" class="image" width="50px" height="75px;">
+                </div> -->
+                <div class="input-control">
+                    <label for='username'><b>Username: </b></label>
+                    <input id="username" type="text" placeholder="Enter username" name="n"><br>
+                    <div class="error"></div>
+                </div>
+                <div class="input-control">
+                    <label for='password'><b>Password : </b></label>
+                    <input id="password" type="password" placeholder="Enter Password" name="pwd" min="8"><br>
+                    <div class="error"></div>
+                </div>
+
+                <div class="input-control">
+                    <label for='phone'><b>Phone Number: </b></label>
+                    <input id="phone" type="text" placeholder="Enter Phone Number" name="ph"><br>
+                    <div class="error"></div>
+                </div>
+                <div class="input-control">
+                    <label for='age'><b>Age:</b></label>
+                    <input id="age" type="text" placeholder="Enter Age" name="age"><br>
+                </div>
+                <div class="input-control">
+                    <label for='gender'><b>Gender:</b></label>
+                    <input id="gender" type="text" placeholder="Enter Gender" name="sex"><br>
+                </div>
+
+                <div class="input-control">
+                    <label for='email'><b>Email</b></label>
+                    <input id="email" type="email" placeholder="Enter Email" name="email"><br>
+                </div>
+
+                <br><br>
+                <div>
+                    <button type="submit"><b>Register</b></button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

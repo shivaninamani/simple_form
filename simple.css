@@ -1,0 +1,124 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #deeaee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+button {
+    background-color: #517feb;
+    width: 25%;
+    padding: 15px;
+    color: black;
+    border: none;
+    float: center;
+    font-size: 20px;
+}
+
+label {
+    font-size: 20px;
+    padding: 10px;
+}
+
+input[type=text],
+
+input[type=password],
+
+input[type=email] {
+    width: 95%;
+    font-size: 15px;
+    margin: 8px 0px;
+    padding: 15px 10px;
+    display: inline-block;
+    border: 2px solid #878f99;
+    box-sizing: border-box;
+    display: block;
+
+}
+
+select {
+    width: 95%;
+    height: 5%;
+    color: black;
+    font-size: 15px;
+    margin-top: 10px;
+    border: 2px solid #878f99;
+    box-sizing: border-box;
+
+}
+
+button,
+.but {
+
+    position: absolute;
+    right: 580px;
+}
+
+.but {
+    position: absolute;
+    right: 670px;
+}
+
+button:hover {
+    opacity: 0.7;
+
+}
+
+.container {
+    padding: 40px;
+    background-color: white;
+    width: 555px;
+    height: 950px;
+
+
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+img.image {
+    width: 20%;
+    height: 18%;
+    border-radius: 30%;
+}
+
+
+.total {
+    margin-top: 10px;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.stat {
+    color: red;
+    position: absolute;
+    right: 700px;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+.inpit-control.success input {
+    border-color: #09c372;
+}
+
+.input-control.error input {
+    border-color: red;
+}
+
+.input-control.error {
+    color: red;
+    font-size: 9px;
+    height: 5px;
+
+}
